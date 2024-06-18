@@ -1,46 +1,46 @@
 /* Write your CSS here */
-.app-container {
+.container {
+  background-color: #ffc2a0;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #ffc2a0;
 }
-.simple-todos-container {
+
+.inner-container {
+  background-color: white;
+  margin: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-color: #ffffff;
-  width: 90%;
-  padding: 25px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  max-width: 1120px;
+  width: 98%;
   border-radius: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .simple-todos-container {
-    padding: 50px;
-    margin-top: 98px;
-    margin-bottom: 98px;
+  .inner-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
   }
 }
 
 .heading {
+  font-size: 30px;
   font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 800;
-  margin-top: 15px;
-  margin-bottom: 18px;
   color: #ff8542;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .heading {
-    font-size: 50px;
-    margin-bottom: 50px;
-    margin-top: 35px;
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
   }
 }
 
